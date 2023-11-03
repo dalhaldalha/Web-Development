@@ -1,0 +1,41 @@
+body {
+  font-family: Arial;
+  padding-bottom: 3000px;
+  padding-top: 55px;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  background-color: rgb(226, 226, 226);
+}
+
+.home,
+.contactme {
+  color: black;
+  text-decoration: none;
+  transition: font-size 0.3s, font-weight 0.3s;
+}
+
+.home {
+  margin-right: 10px;
+}
+
+.contactme:hover,
+.home:hover {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.dalha-picture {
+  width: 250px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
