@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: Arial;
   padding-bottom: 3000px;
   padding-top: 55px;
@@ -38,4 +41,12 @@ body {
   width: 250px;
   border-radius: 50%;
   margin-right: 15px;
+}
+
+hr {
+  border-color: silver;
+  border-style: none;
+  border-top: dotted;
+  width: 10%;
+  border-width: 10px;
 }
