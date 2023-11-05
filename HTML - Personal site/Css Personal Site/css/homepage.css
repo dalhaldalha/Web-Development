@@ -1,3 +1,74 @@
+hr {
+  margin: 0px;
+}
+
 body {
   font-family: Arial;
+  color: #141e46;
+  margin: 0px;
+  padding-bottom: 3000px;
+}
+
+h1 {
+  font-size: 5rem; 
+  margin: 0px;
+}
+
+p {
+  color: #FF6969;
+  font-size: 2rem;
+  margin: 0px;
+}
+
+.div1 {
+  position: relative;
+  background-color: #fff5e0;
+  padding-top: 200px;
+  text-align: center;
+  top: 0px;
+  padding-bottom: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  width: 20%;
+  right: 40px;
+  top: 300px
+}
+
+.bottom-cloud {
+  position: absolute;
+  display: inline-block;
+  width: 20%;
+  left: 8%;
+}
+
+.sky-image {
+  margin-top: 20px;
+  width: 100%;
+
+}
+
+.div2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: white;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  position: absolute;
+  top: -140px;
+  left: 50%;
+  margin-left: -7.5rem;
+  width: 15rem;
+  border: solid;
+  border-radius: 50%;
+  border-width: 10px;
+  border-color: white;
 }
