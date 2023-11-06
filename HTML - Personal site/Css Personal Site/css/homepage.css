@@ -1,3 +1,5 @@
+/*--------------------------General Stuff---------------------------*/
+
 hr {
   margin: 0px;
 }
@@ -20,13 +22,16 @@ p {
   margin: 0px;
 }
 
+/*--------------------------1st Group---------------------------*/
+
 .div1 {
   position: relative;
   background-color: #fff5e0;
   padding-top: 200px;
   text-align: center;
   top: 0px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
+  border-radius: 0px 0px 50px 50px;
 }
 
 .top-cloud {
@@ -49,6 +54,8 @@ p {
 
 }
 
+/*--------------------------2nd Group---------------------------*/
+
 .div2 {
   display: flex;
   flex-direction: column;
@@ -56,9 +63,10 @@ p {
   background-color: white;
   text-align: center;
   margin-top: 50px;
-  padding-top: 100px;
+  padding-top: 150px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .profile {
@@ -71,4 +79,63 @@ p {
   border-radius: 50%;
   border-width: 10px;
   border-color: white;
+}
+
+.me-text {
+  color: #141e46;
+}
+
+/*--------------------------2nd Group---------------------------*/
+
+.client {
+  
+}
+
+.div3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff5e0;
+  border-radius: 50px;
+  padding: 0px 20px 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.div3-1 {
+  display: flex;
+  background-color: ;
+  width: 100%;
+  height: 15rem;
+  margin-bottom: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.div3-2 {
+  display: flex;
+  background-color: ;
+  width: 100%;
+  height: 15rem;
+  justify-content: space-around;
+}
+
+.div-clients {
+  display: flex;
+  background-color: white;
+  height: 14rem;
+  width: 25rem;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 0px 7px rgba(137, 137, 137, 0.64);
+}
+
+.client-image {
+  width: 6.25rem;
+  transition: width 0.5s;
+}
+
+.client-image:hover {
+  width: 7.5rem;
+  
 }
