@@ -8,7 +8,6 @@ body {
   font-family: Arial;
   color: #141e46;
   margin: 0px;
-  padding-bottom: 3000px;
 }
 
 h1 {
@@ -202,4 +201,12 @@ p {
 .contactme:active {
   background-color: #141e46;
   color: #ff6969;
+}
+
+/*--------------------------Footer---------------------------*/
+
+.footer {
+  background-color: #1b42dd;
+  display: flex;
+  height: 8rem;
 }
