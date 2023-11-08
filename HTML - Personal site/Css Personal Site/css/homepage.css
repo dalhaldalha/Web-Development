@@ -17,7 +17,7 @@ h1 {
 }
 
 p {
-  color: #FF6969;
+  color: #ff6969;
   font-size: 2rem;
   margin: 0px;
 }
@@ -27,7 +27,6 @@ p {
 .header {
   display: flex;
   background-color: #141e46;
-  display: flex;
   position: fixed;
   align-items: center;
   justify-content: center;
@@ -36,7 +35,7 @@ p {
   right: 0px;
   left: 0px;
   z-index: 1;
-  box-shadow: 0px 6px 15px rgba(12, 12, 12, 0.311);
+  box-shadow: 0px 6px 15px rgba(176, 143, 143, 0.311);
 }
 
 
@@ -86,6 +85,7 @@ p {
   align-items: center;
   margin-bottom: 50px;
 }
+
 
 .profile {
   position: absolute;
@@ -157,4 +157,49 @@ p {
 .client-image:hover {
   width: 7.5rem; 
   filter: grayscale(0%);
+}
+
+/*--------------------------Contact me Section---------------------------*/
+
+.div4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.getintouch {
+  margin-top: 20px;
+}
+
+.thankyou {
+  color: #141e46;
+  max-width: 45.6rem;
+  font-size: 1.5rem;
+  margin: 20px;
+}
+
+.pleasefeel {
+  max-width: 65rem;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.contactme {
+  background-color: #ff6969;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: larger;
+  padding: 20px 2rem 20px;
+  transition: box-shadow 1s background-color 1.5s color 1.5s;
+}
+
+.contactme:hover {
+  box-shadow: 0px 0px 10px rgba(76, 76, 76, 0.416);
+}
+
+.contactme:active {
+  background-color: #141e46;
+  color: #ff6969;
 }
