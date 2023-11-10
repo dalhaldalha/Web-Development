@@ -150,7 +150,7 @@ p {
 }
 
 
-/*--------------------------2nd Group---------------------------*/
+/*--------------------------3rd Group---------------------------*/
 
 .div3 {
   display: flex;
@@ -164,7 +164,6 @@ p {
 
 .div3-1 {
   display: flex;
-  background-color: ;
   width: 100%;
   height: 15rem;
   margin-bottom: 10px;
@@ -200,6 +199,30 @@ p {
 .client-image:hover {
   width: 7.5rem; 
   filter: grayscale(0%);
+}
+
+@media (max-width: 500px) {
+  
+.div3 {
+}
+
+  #client {
+    margin-top: 0rem;
+    margin-bottom: 10rem;
+  }
+  
+  .div3-2,
+  .div3-1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15rem;
+  }
+
+  .div-clients {
+    padding: 20px 0px 20px;
+    width: 20rem;
+    margin-bottom: 20px;
+  }
 }
 
 /*--------------------------Contact me Section---------------------------*/
