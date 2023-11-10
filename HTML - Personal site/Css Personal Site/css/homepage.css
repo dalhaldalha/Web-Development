@@ -8,7 +8,7 @@ hr {
 }
 
 body {
-  background-color: #fff5e0;
+  background-color: white;
   font-family: Arial;
   color: #141e46;
   margin: 0px;
@@ -27,6 +27,11 @@ p {
 
 /*--------------------------Header---------------------------*/
 
+.header {
+  display: flex;
+  background-color: #fff5e0;
+}
+
 .menu {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -36,7 +41,7 @@ p {
   display: flex;
   justify-content: space-around;
   width: 50%;
-  padding: 10px 0px 10px;
+  padding: 20px 0px 20px;
   border-color: silver;
   border: solid;
   border-radius: 30px;
@@ -50,6 +55,11 @@ p {
   font-size: 1rem;
   font-weight: bold;
   text-decoration: none;
+  transition: font-size 0.5s;
+}
+
+.link:hover {
+  font-size: 1.2rem;
 }
 
 
